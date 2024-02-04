@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-image">
+        <img class="image" src="https://flagsapi.com/US/flat/64.png">
+    </div>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <h3>
+                Select the Countries
+            </h3>
+            <div class="countries">
+                <div class="form">
+                    <h3>
+                        From
+                    </h3>
+                    <select id="first">
+                    </select>
+                </div>
+                <div class="to">
+                    <h3>
+                        To
+                    </h3>
+                    <select id="second">
+                    </select>
+                </div>
+            </div>
+            <h3>
+                Enter the amount
+            </h3>
+            <div class="input-box">
+                <input type="text" value="1">
+            </div>
+            <button>
+                Calculate The Exchange Rate
+            </button>
+        </form>
+        <div class="msg"></div>
+        <div class="final-msg"></div>
+    </div>
+    <div class="right-image">
+        <img class="image" src="https://flagsapi.com/IN/flat/64.png">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

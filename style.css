@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a5651;
+}
+.image{
+    width: 40vh;
+}
+.container{
+    display: inline-block;
+    background-color: rgb(124, 199, 188);
+    width: 400px;
+    height: 100vh;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    background-color: #860e98;
+    color: white;
+    margin-bottom: 80px;
+}
+.container h3{
+    margin-top: 20px;
+}
+.countries{
+    display: flex;
+    justify-content: space-around;
+}
+select{
+    margin-top: 20px;
+    outline: none;
+    font-size: 0.8rem;
+    height: 1.5rem;
+    width: 4rem;
+    background-color: rgb(232, 212, 227);
+    border: none;
+    border: 1px solid #860e98;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+}
+.container input{
+    margin-top: 20px;
+    outline: none;
+    height: 1.5rem;
+    width: 15rem;
+    background-color: rgb(232, 212, 227);
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #860e98;
+    font-size: 0.8rem;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #175a77;
+    color: white;
+}
+button:hover{
+    background-color: #3e89a8;
+}
+.msg{
+    margin-top: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.final-msg{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+}
